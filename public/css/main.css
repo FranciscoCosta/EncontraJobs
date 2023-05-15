@@ -12,3 +12,17 @@ h1{
     font-size: 3rem;
     font-weight: 900;
 }
+
+#navbar img{
+    width: 300px;
+    margin-left: 2rem;
+}
+
+.nav-link{
+    color: #f7c305;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color: #23383b;
+}

@@ -11,7 +11,21 @@
     <title>@yield('title')</title>
 </head>
 <body>
-
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <div class="collapse navbar-collapse" id="navbar">
+            <a href="" class="navbar-brand">
+                <img src="/assets/logo.png" alt="Encontra jobs">
+            </a>
+            <ul class="navbar-nav">
+                <li><a href="" class="nav-link">Ver vagas</a></li>
+                <li><a href="" class="nav-link">Cadastrar vagas</a></li>
+                <li><a href="" class="nav-link">Entrar</a></li>
+                <li><a href="" class="nav-link">Cadastrar</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
     @yield('content')
     <footer>
         <p>EncontraJobs &copy; 2023</p>
