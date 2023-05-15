@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('workschedule');
             $table->string('phone');    
             $table->string('website');
+            $table->json('tags');
             $table->timestamps();
         });
     }

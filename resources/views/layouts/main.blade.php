@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    @vite(['resources/sass/home.scss', 'resources/sass/navbar.scss'])
+    @vite(['resources/sass/home.scss', 'resources/sass/navbar.scss', 'resources/sass/createJob.scss'])
     {{-- import bootstrap --}}
     <link rel="stylesheet" href="/css/main.css">
     <title>@yield('title')</title>
@@ -18,7 +18,7 @@
                 <img src="/assets/logo.png" alt="Encontra jobs">
             </a>
             <ul class="Navbar__list">
-                <li><a href="" class="Navbar__link">Ver vagas</a></li>
+                <li><a href="/" class="Navbar__link">Ver vagas</a></li>
                 <li><a href="/jobs/create" class="Navbar__link">Cadastrar vagas</a></li>
                 <li><a href="" class="Navbar__link">Cadastrar</a></li>
                 <li><a href="" class="Navbar__link">Entrar</a></li>

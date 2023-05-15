@@ -10,6 +10,7 @@
             <div class="Hero__input">
                 <input type="text" name="search" id="search" placeholder="procure a sua vaga de sonhos...">
                 <button>Procurar</button>
+                
             </div>
         </div>
         <h1>Vagas de emprego</h1>
