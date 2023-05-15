@@ -18,3 +18,12 @@ Route::get('/', function () {
 });
 
 
+Route::get('/jobs', function () {
+    return view('jobs');
+});
+
+Route::get('/job/{$id}', function ($id) {
+    return view('job', ['id' => $id]);
+});
+
+
