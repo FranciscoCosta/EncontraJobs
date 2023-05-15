@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('workplace');
             $table->string('email');
             $table->string('workschedule');
-            $table->string('phone');
+            $table->string('phone');    
             $table->string('website');
             $table->timestamps();
         });
