@@ -19,7 +19,7 @@
             </a>
             <ul class="navbar-nav">
                 <li><a href="" class="nav-link">Ver vagas</a></li>
-                <li><a href="" class="nav-link">Cadastrar vagas</a></li>
+                <li><a href="/jobs/create" class="nav-link">Cadastrar vagas</a></li>
                 <li><a href="" class="nav-link">Entrar</a></li>
                 <li><a href="" class="nav-link">Cadastrar</a></li>
             </ul>
