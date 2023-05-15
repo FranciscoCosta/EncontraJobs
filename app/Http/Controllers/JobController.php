@@ -18,4 +18,26 @@ class JobController extends Controller
     {
         return view('jobs.create');
     }
+
+    public function store(Request $request)
+    {
+        $job = new Job;
+
+        $job->title = $request->title;
+        $job->description = $request->description;
+        $job->salary = $request->salary;
+        $job->company = $request->company;
+        $job->work_model = $request->input('workmodel');
+        $job->workplace = $request->workplace;
+        $job->email = $request->email;
+        $job->workschedule = $request->workschedule;
+        $job->phone = $request->phone;
+        $job->website = $request->website;
+
+        $job->save();
+
+        return redirect('/');
+
+        
+    }
 }

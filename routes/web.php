@@ -15,6 +15,7 @@ use App\Http\Controllers\JobController;
 
 Route::get('/',[JobController::class, 'index']);
 Route::get('/jobs/create',[JobController::class, 'create']);
+Route::post('/jobs',[JobController::class, 'store']);
 
 
 Route::get('/jobs', function () {

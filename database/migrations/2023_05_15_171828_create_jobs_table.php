@@ -17,14 +17,13 @@ return new class extends Migration
             $table->text('description');
             $table->decimal('salary', 8, 2);
             $table->string('company');
-            $table->text('logo');
+            $table->string('logo')->default('https://i.pinimg.com/originals/ec/d9/c2/ecd9c2e8ed0dbbc96ac472a965e4afda.jpg');
             $table->string('work_model');
             $table->string('workplace');
             $table->string('email');
             $table->string('workschedule');
-            $table->string('phone');    
+            $table->string('phone');
             $table->string('website');
-            $table->json('tags');
             $table->timestamps();
         });
     }
