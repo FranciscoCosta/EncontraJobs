@@ -36,7 +36,7 @@ class JobController extends Controller
 
         $job->save();
 
-        return redirect('/');
+        return redirect('/')->with('msg', 'Vaga criada com sucesso');
 
         
     }
